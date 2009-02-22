@@ -1,0 +1,641 @@
+/**
+ * IPRO Framework Global CSS
+ * 2009 Erik Schoster, IPRO
+ */
+  
+/* Structure
+*/
+
+html {
+		background-color: #D3E4F9;
+		background-image: url('/img/claris01.gif');
+		background-repeat: repeat;
+}
+
+body {
+	font-family: arial, helvetica, sans-serif;
+	background-color: transparent;
+}
+
+div#center {
+	margin: 0 auto 20px auto!important;
+	width: 957px;
+	background-color: #F2F2E6;
+	padding-left: 10px;
+	border-left: 1px solid #444034;
+	border-right: 1px solid #444034;
+	border-bottom: 1px solid #444034;
+}
+
+div.global_wrapper {
+	background:#F2F2E6 url('/img/bodysideborder.gif') repeat-y;
+	padding: 10px;
+	padding-top:0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	margin-left: 20px;
+	padding-right: 20px;
+	margin-top: 0px;
+	width: 886px;
+}
+
+div#inner_wrapper {
+	background-color: #F2F2E6;
+	padding: 10px;
+}
+
+div#left_column {
+	float: left;
+	width: 420px;
+	margin-right: 20px;
+}
+
+div#left_column .item_wrapper {
+	margin: 0px!important;
+	margin-bottom: 20px!important;
+}
+
+div#center_column {
+	float: left;
+	width: 510px;
+	padding-bottom: 20px;
+	padding-top: 0px;
+}
+
+div#right_column {
+	float: left;
+}
+
+div.item_wrapper {
+	padding: 20px;
+	background-color: #fff;
+	margin: 5px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+div.clear {
+	clear: both;
+}
+
+div.content {
+	width: 950px;
+	margin: 20px auto 20px auto;
+}
+
+/* Text
+*/
+
+strong {
+	font-weight: bold;
+	font-color: #222;
+}
+
+h1 {
+	color: #444;
+	font-size: 25px;
+	font-weight: bold;
+	display: inline;
+}
+
+h2 {
+	color: #666;
+	font-size: 25px;
+	font-weight: bold;
+	display: inline;
+}
+
+h3 {
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px;
+	padding-bottom: 9px;
+	padding-left: 12px;
+	margin-bottom: 20px;
+}
+
+h4 {
+	display: block;
+	font-weight: bold;
+	font-size: 16px;
+	background-image: url('/img/claris04.gif');
+	background-color: #E8D3F9;
+	background-repeat: repeat;
+	padding: 10px;
+	color: #8D44C9;
+}
+
+h4 a {
+	background-image: url('/img/claris03.gif');
+	background-color: #7BC2EB;
+	background-repeat: repeat;
+	color: #0F5C89;
+}
+
+h4 a:hover {
+	color: #0F5C89;
+}
+
+p {
+	color: #444;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* Elements
+*/
+
+div.message {
+	background-color: yellow;
+	padding: 5px;
+	margin-bottom: 5px;
+	color: #444;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+div.button {
+	display:-moz-inline-stack;
+	display: inline-block; 
+	zoom:1;
+	*display:inline;
+	position: relative; 
+}
+
+label.button {
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 52%;
+	z-index: 1;
+	padding: 0;
+	background-color: #fff;
+	border-bottom: 11px solid #eee;
+	font: 14px Arial, Sans-serif;
+	color: #666;
+	text-indent: -999999px;
+}
+
+input.button {
+	z-index: 10;
+	position: relative;
+	display: inline-block; 
+	margin: 0px;
+	padding: 3px 5px;
+	background: none;
+	font: 14px Arial, Sans-serif;
+	color: #666;
+	border: none;
+	border-top: 1px solid #eee;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+input.button:hover {
+	cursor:pointer;
+	color: #000;
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+}
+
+a.button {
+	z-index: 10;
+	position: relative;
+	display: inline-block; 
+	margin: 0px;
+	padding: 3px 5px;
+	background: none;
+	font: 14px Arial, Sans-serif;
+	text-decoration: none;
+	color: #666;
+	border: none;
+	border-top: 1px solid #eee;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+a.button:hover {
+	cursor:pointer;
+	color: #000;
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+}
+
+a.breadcrumb:link, 
+a.breadcrumb:visited, 
+a.breadcrumb:active {
+	font-size: 10px;
+	color: #333;
+	text-decoration: none;
+}
+
+a.breadcrumb:hover {
+	color: #666;
+	text-decoration: underline;
+}
+
+/* Form
+*/
+
+div.input {
+	border: 1px solid #eee;
+	background-color: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+div.input label {
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666;
+	margin-bottom: 3px;
+}
+
+div.text input {
+	width: 430px;
+}
+
+/**************************
+		ARTISTS INDEX PAGE SPECIFICS
+	**********************************/
+
+div.artist {
+	padding: 0px;
+}
+
+div.artist h2 {
+	display: block;
+	background-image: url('/img/claris04.gif');
+	background-color: #E8D3F9;
+	background-repeat: repeat;
+	padding: 10px;
+	color: #8D44C9;
+}
+
+div.artist h2 a {
+	background-image: url('/img/claris03.gif');
+	background-color: #7BC2EB;
+	background-repeat: repeat;
+	color: #0F5C89;
+}
+
+div.artist h2 a:hover {
+	color: #0F5C89;
+}
+
+div.artist h3 {
+	margin: 0px;
+	font-size: 14px;
+	padding: 4px;
+	padding-left: 12px;
+	background-image: url('/img/claris03.gif');
+	background-color: #B4E208;
+	background-repeat: repeat;
+	color: #536904;
+}
+
+div.artist p {
+	padding: 5px 20px 5px 20px;
+	line-height: 24px;
+	background-image: url('/img/claris17.gif');
+	background-color: #E8D3F9!important;
+	background-repeat: repeat;
+}
+
+div.artist p a {
+	color: #8D44CB;
+}
+
+div.artist p strong {
+	color: #8D44CB;
+}
+
+/**************************
+		HOME PAGE SPECIFICS
+	**********************************/
+
+div.featured_single {
+	padding: 0px;
+}
+
+div.featured_single h2 {
+	display: block;
+	background-image: url('/img/claris04.gif');
+	background-color: #E8D3F9;
+	background-repeat: repeat;
+	padding: 10px;
+	color: #8D44C9;
+}
+
+div.featured_single h2 a {
+	background-image: url('/img/claris03.gif');
+	background-color: #7BC2EB;
+	background-repeat: repeat;
+	color: #0F5C89;
+}
+
+div.featured_single h2 a:hover {
+	color: #0F5C89;
+}
+
+div.featured_single p {
+	padding: 5px 20px 5px 20px;
+	line-height: 24px;
+	background-image: url('/img/claris17.gif');
+	background-color: #E8D3F9!important;
+	background-repeat: repeat;
+}
+
+div.featured_single p strong {
+	color: #8D44CB;
+}
+
+div.mp3_player {
+	display: block;
+	background-image: url('/img/claris04.gif');
+	background-color: #A5D1EB;
+	background-repeat: repeat;
+	padding: 10px 10px 10px 10px;
+	color: #8D44C9;
+}
+
+div.mp3_player span {
+	display: block;
+	background-image: url('/img/claris17.gif');
+	background-color: #A5D1EB!important;
+	background-repeat: repeat;
+	padding: 10px;
+}
+
+div.mp3_player p {
+	float: left;
+	background-image: none!important;
+	background-color: transparent!important;
+	padding: 0px!important;
+	margin: 0px!important;
+}
+
+div.mp3_player p object {
+	margin-top: 3px;
+}
+
+div.mp3_player p a {
+	margin: 0px;
+	font-size: 14px;
+	padding: 4px;
+	margin-left: 10px;
+	background-image: url('/img/claris03.gif');
+	background-color: #B4E208;
+	background-repeat: repeat;
+	color: #536904;
+}
+
+div.mp3_player p a:hover {
+	color: #455603;
+}
+
+div.featured_release {
+	background-image: url('/img/claris07.gif');
+	background-color: #B4E208!important;
+	background-repeat: repeat;
+}
+
+div.featured_release h2 {
+	display: block;
+	background-image: url('/img/claris03.gif');
+	background-color: #7BC2EB;
+	background-repeat: repeat;
+	padding: 10px;
+	color: #0F5C89;
+}
+
+div.featured_release h2 a {
+	background-image: url('/img/claris03.gif');
+	background-color: #B4E208;
+	background-repeat: repeat;
+	color: #6D8905;
+}
+
+div.featured_release h2 a:hover {
+	color: #455603;
+}
+
+div.featured_release h3 {
+	margin-top: 20px;
+	margin-bottom: 0px;
+	background-image: url('/img/claris04.gif');
+	background-color: #E8D3F9;
+	background-repeat: repeat;
+	color: #8D44C9;
+	text-transform: none;
+}
+
+div.featured_release div {
+	padding: 0px!important;
+	margin: 0px 0px 0px 0px;
+	height: 300px;
+}
+
+div.featured_release p {
+	padding: 20px;
+	line-height: 24px;
+	background-image: url('/img/claris17.gif');
+	background-color: #E8D3F9!important;
+	background-repeat: repeat;
+}
+
+
+/**************************
+		RELEASES INDEX PAGE SPECIFICS
+	**********************************/
+	
+div.release {
+	background-image: url('/img/claris07.gif');
+	background-color: #B4E208!important;
+	background-repeat: repeat;
+}
+
+div.release h2 {
+	display: block;
+	background-image: url('/img/claris03.gif');
+	background-color: #7BC2EB;
+	background-repeat: repeat;
+	padding: 10px;
+	color: #0F5C89;
+}
+
+div.release h2 a {
+	background-image: url('/img/claris03.gif');
+	background-color: #B4E208;
+	background-repeat: repeat;
+	color: #6D8905;
+}
+
+div.release h2 a:hover {
+	color: #455603;
+}
+
+div.release h3 {
+	margin-top: 20px;
+	margin-bottom: 0px;
+	background-image: url('/img/claris04.gif');
+	background-color: #E8D3F9;
+	background-repeat: repeat;
+	color: #8D44C9;
+	text-transform: none;
+}
+
+div.release div {
+	padding: 0px!important;
+	margin: 0px 0px 0px 0px;
+	height: 100px;
+}
+
+/**************************
+		RELEASES VIEW PAGE SPECIFICS
+	**********************************/
+	
+div#release_cover {
+	padding: 0px!important;
+	margin: 0px 5px 0px 5px;
+	height: 300px;
+}
+
+div#release_cover span {
+	display: block;
+	width: 500px;
+	height: 300px;
+	padding-top: 150px;
+}
+
+div#release_cover div {
+	margin: 0px!important;
+}
+
+div.release_description {
+	background-image: url('/img/claris16.gif');
+	background-color: #F6EC90!important;
+	border: 0px outset #FFCB20;
+	background-repeat: repeat;
+}
+
+div.release_description h3 {
+	background-image: url('/img/claris02.gif');
+	color: #967713;
+	background-color: #F6EC90!important;
+	background-repeat: repeat;
+}
+
+div.release_description p {
+	padding: 20px;
+	line-height: 24px;
+	background-image: url('/img/claris17.gif');
+	background-color: #F6EC90!important;
+	background-repeat: repeat;
+}
+
+div.release_bio {
+	background-image: url('/img/claris07.gif');
+	background-color: #7BC2EB!important;
+	background-repeat: repeat;
+}
+
+div.release_bio h3 {
+	background-image: url('/img/claris03.gif');
+	color: #045CA1;
+	background-color: #7BC2EB!important;
+	background-repeat: repeat;
+}
+
+div.release_bio p {
+	padding: 20px;
+	line-height: 24px;
+	background-image: url('/img/claris18.gif');
+	background-color: #7BC2EB!important;
+	background-repeat: repeat;
+}
+
+div.release_artwork {
+	background-image: url('/img/claris06.gif');
+	background-color: #B4E208!important;
+	background-repeat: repeat;
+}
+
+div.release_artwork h3 {
+	background-image: url('/img/claris03.gif');
+	color: #6D8905;
+	background-color: #B4E208!important;
+	background-repeat: repeat;
+}
+
+div.release_tracklist {
+	background-image: url('/img/claris09.gif');
+	background-color: #F6EC90!important;
+	background-repeat: repeat;
+}
+
+div.release_tracklist h3 {
+	background-image: url('/img/claris02.gif');
+	color: #967713;
+	background-color: #F6EC90!important;
+	background-repeat: repeat;
+}
+
+div.release_tracklist p {
+	padding: 10px;
+	background-image: url('/img/claris17.gif');
+	background-color: #F6EC90!important;
+	background-repeat: repeat;
+}
+
+div.release_tracklist em {
+	margin: 0!important;
+	padding: 2px;
+	padding-left: 6px;
+	padding-right: 6px;
+	font-weight: bold;
+	font-size: 16px;
+	background-image: url('/img/claris02.gif');
+	color: #967713;
+	background-color: #F6EC90!important;
+	background-repeat: repeat;
+}
+
+div.release_tracklist ol {
+	margin: 10px 0px 20px 50px;
+}
+
+div.release_tracklist ol li {
+	list-style-type: cjk-ideographic;
+	padding: 5px;
+	padding-left: 7px;
+	font-size: 20px;
+	color: #555;
+	font-weight: bold;
+	background-image: url('/img/claris17.gif');
+	background-color: #F6EC90!important;
+	background-repeat: repeat;
+}
+
+div.release_banner {
+	background-image: url('/img/claris02.gif');
+	background-color: #E8D3F9!important;
+	background-repeat: repeat;
+}
+
+div.release_download {
+	background-image: url('/img/claris14.gif');
+	background-color: #E8D3F9!important;
+	background-repeat: repeat;
+}

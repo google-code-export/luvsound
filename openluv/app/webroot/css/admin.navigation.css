@@ -1,0 +1,52 @@
+/**
+ * IPRO Framework Navigation CSS
+ * 2009 Erik Schoster, IPRO
+ */
+ 
+/* Masthead
+*/
+
+div#masthead {
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background-color: #DDD;
+	padding: 10px;
+	margin: 10px;
+}
+
+div#masthead a{
+	color:#777;
+	text-decoration: none;
+}
+
+/* Navigation
+*/
+
+div#navigation {
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background-color: #eee;
+	padding: 10px;
+	margin: 10px;
+	background-image: url('/img/claris01.gif');
+	background-color: #7BC2EB!important;
+	background-repeat: repeat;
+}
+
+div#navigation p {
+	padding: 5px;
+	display: inline;
+	margin-right: 5px;
+}
+
+div#navigation a:link, 
+div#navigation a:active, 
+div#navigation a:visited {
+	color:#777;
+	text-decoration: none;
+}
+
+div#navigation a:hover {
+	color:#222;
+	text-decoration: underline;
+}

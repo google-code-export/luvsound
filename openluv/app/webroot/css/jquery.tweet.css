@@ -1,0 +1,73 @@
+div.twitter {
+	background-color: #7BC2EB; 
+	background-image: url('/img/claris03.gif');
+	background-repeat: repeat;
+}
+
+.tweet {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	color: #7BC2EB; 
+}
+
+.tweet p {
+	color: #7194BD;
+	padding: 10px;
+	background-color: #edf1f6; 
+	background-image: url('/img/claris07.gif');
+	background-repeat: repeat;
+}
+
+.tweet .tweet_list {
+	-webkit-border-radius: .5em;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #edf1f6; 
+	background-image: url('/img/claris07.gif');
+	background-repeat: repeat;
+}
+
+.tweet .tweet_list li {
+	overflow: auto;
+	padding: .5em; 
+}
+
+.tweet .tweet_list li a {
+	color: #7BC2EB; 
+}
+
+.tweet .tweet_list li a:hover {
+	color: #0095EB; 
+}
+
+span.tweet_date {
+	display: block;
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+span.tweet_date a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #7194BD!important;
+	font-size: 12px;
+}
+
+span.tweet_date a:hover {
+	text-decoration: underline;
+	color: #7194BD;
+}
+
+.tweet .tweet_list .tweet_even {
+	background-color: #fff; 
+}
+
+.tweet .tweet_list .tweet_avatar {
+	padding-right: .5em;
+	float: left; 
+}
+
+.tweet .tweet_list .tweet_avatar img {
+	vertical-align: middle; 
+}
