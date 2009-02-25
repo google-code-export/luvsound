@@ -676,3 +676,7 @@ div.purchase_description p {
 	background-color: #E8D3F9!important;
 	background-repeat: repeat;
 }
+
+div.purchase_description p strong {
+	color: #9C28F9;
+}
