@@ -26,7 +26,7 @@
 	<?php echo $button->link('Download This Release', $release['Release']['download']); ?>
 </div>
 
-<?php if($release['Item']) : ?>
+<?php if(!empty($release['Item']['id'])) : ?>
 <div class="item_wrapper release_purchase">
 	<div class="purchase_cover">
 		<img src="<?php echo $release['Item']['url']; ?>" />
