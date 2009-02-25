@@ -639,3 +639,40 @@ div.release_download {
 	background-color: #E8D3F9!important;
 	background-repeat: repeat;
 }
+
+div.release_purchase {
+	background-image: url('/img/claris14.gif');
+	background-color: #E8D3F9!important;
+	background-repeat: repeat;
+}
+
+div.release_purchase img {
+	width: 149px;
+	margin-bottom: 10px;
+}
+
+div.release_purchase div.purchase_cover {
+	display: block;
+	float: left;
+	width: 149px;
+}
+
+div.release_purchase div.purchase_description {
+	display: block;
+	float: left;
+	margin-left: 20px;
+	width: 289px;
+}
+
+div.purchase_description h2 {
+	display: block;
+	margin-top: -5px;
+	margin-bottom: 10px;
+}
+
+div.purchase_description p {
+	padding: 10px;
+	background-image: url('/img/claris17.gif');
+	background-color: #E8D3F9!important;
+	background-repeat: repeat;
+}

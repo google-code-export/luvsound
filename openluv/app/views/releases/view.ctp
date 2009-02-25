@@ -26,6 +26,20 @@
 	<?php echo $button->link('Download This Release', $release['Release']['download']); ?>
 </div>
 
+<?php if($release['Item']) : ?>
+<div class="item_wrapper release_purchase">
+	<div class="purchase_cover">
+		<img src="<?php echo $release['Item']['url']; ?>" />
+		<?php echo $release['Item']['paypal_button']; ?>
+	</div>
+	<div class="purchase_description">
+		<h2><?php echo $release['Item']['name']; ?></h2>
+		<p><?php echo $release['Item']['description']; ?></p>
+	</div>
+	<div class="clear"></div>
+</div>
+<?php endif; ?>
+
 <?php if(!empty($photos)) : ?>
 <div class="item_wrapper release_artwork">
 		<h3>Artwork</h3>
