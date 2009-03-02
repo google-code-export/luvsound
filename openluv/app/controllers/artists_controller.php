@@ -15,6 +15,7 @@
 		
 		function index(){
 			$this->layout = 'default';
+			$this->pageTitle = 'luvsound: artists';
 			$artists = $this->Artist->getArtists(50);
 			$this->set('artists', $artists);
 		}

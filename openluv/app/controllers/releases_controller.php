@@ -16,6 +16,7 @@
 		
 		function index(){
 			$this->layout = 'default';
+			$this->pageTitle = 'luvsound: releases';
 			$releases = $this->Release->getReleases(50, $this->Auth->user('group_id'));
 			$this->set('releases', $releases);
 		}
@@ -25,6 +26,7 @@
 			$this->set('disable_twitter', true); // Disable twitter for release pages.
 			
 			$release = $this->Release->getReleaseByCatalogId($id);
+			$this->pageTitle = $id . ': ' . $release['Release']['name'] . ' by ' . $release['Artist']['name'];
 			$photos = $this->Photo->getPhotosByReleaseId($release['Release']['id']);
 			
 			$this->set('photos', $photos);

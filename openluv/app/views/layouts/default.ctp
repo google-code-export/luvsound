@@ -16,6 +16,7 @@
     <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js" type="text/javascript"></script>
     <script language="javascript" src="/js/jquery.tweet.js" type="text/javascript"></script>
 	<script language="javascript" src="/js/jquery.tweet.luvsound.js" type="text/javascript"></script>
+	<script src="/mint/?js" type="text/javascript"></script>
 	<?php echo $scripts_for_layout; ?>
 </head>
 

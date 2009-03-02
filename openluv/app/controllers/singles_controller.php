@@ -15,6 +15,7 @@
 		
 		function index(){
 			$this->layout = 'default';
+			$this->pageTitle = 'luvsound: singles';
 			$singles = $this->Single->getSingles(50, $this->Auth->user('group_id'));
 			$this->set('singles', $singles);
 		}
