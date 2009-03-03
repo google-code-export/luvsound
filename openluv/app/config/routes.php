@@ -32,7 +32,8 @@
  * to use (in this case, /app/views/pages/home.ctp)...
  */
 	Router::connect('/', array('controller' => 'pages', 'action' => 'index'));
-	//Router::connect('/', array('controller' => 'users', 'action' => 'login'));
+	
+	Router::connect('/release/*', array('controller' => 'releases', 'action' => 'view'));
 
 	Router::connect('/forgot_password', array('controller' => 'users', 'action' => 'forgot_password'));
 ?>
