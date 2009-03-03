@@ -15,7 +15,8 @@
 		</p>
 		<p>
 			Otherwise, check out the menu options to the left below our new eye-melting logo and 
-			maybe you can find what you're looking for there!
+			maybe you can find what you're looking for there!  If you're looking for an older release 
+			we haven't added to the new site yet, you'll be able to <a href="http://www.archive.org/details/luvsound">find it on archive.org!</a>
 		<p>
 		<p>
 			Thanks!<br/>
