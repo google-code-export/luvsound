@@ -680,3 +680,34 @@ div.purchase_description p {
 div.purchase_description p strong {
 	color: #9C28F9;
 }
+
+/** ERRORS **/
+
+div.error404 {
+	background-image: url('/img/claris09.gif');
+	background-color: #F6EC90!important;
+	background-repeat: repeat;
+}
+
+div.error404 h2 {
+	background-image: url('/img/claris02.gif');
+	color: #967713;
+	padding: 10px;
+	background-color: #F6EC90!important;
+	background-repeat: repeat;
+}
+
+div.error404 h3 {
+	background-image: url('/img/claris02.gif');
+	color: #967713;
+	font-size: 16px;
+	background-color: #F6EC90!important;
+	background-repeat: repeat;
+}
+
+div.error404 p {
+	padding: 10px;
+	background-image: url('/img/claris17.gif');
+	background-color: #F6EC90!important;
+	background-repeat: repeat;
+}

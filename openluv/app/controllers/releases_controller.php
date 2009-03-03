@@ -25,12 +25,14 @@
 			$this->layout = 'default';
 			$this->set('disable_twitter', true); // Disable twitter for release pages.
 			
-			$release = $this->Release->getReleaseByCatalogId($id);
-			$this->pageTitle = $id . ': ' . $release['Release']['name'] . ' by ' . $release['Artist']['name'];
-			$photos = $this->Photo->getPhotosByReleaseId($release['Release']['id']);
-			
-			$this->set('photos', $photos);
-			$this->set('release', $release);			
+			if($release = $this->Release->getReleaseByCatalogId($id)){
+				$this->pageTitle = $id . ': ' . $release['Release']['name'] . ' by ' . $release['Artist']['name'];
+				$photos = $this->Photo->getPhotosByReleaseId($release['Release']['id']);
+				$this->set('photos', $photos);
+				$this->set('release', $release);
+			} else {
+				$this->cakeError('error404'); 
+			}			
 		}
 		
 		function add() {
