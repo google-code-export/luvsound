@@ -36,5 +36,14 @@
 	</div>
 	
 	<?php echo $this->element('session_debug'); ?>
+	
+	<style type='text/css'>@import url('http://s3.amazonaws.com/getsatisfaction.com/feedback/feedback.css');</style>
+	<script src='http://s3.amazonaws.com/getsatisfaction.com/feedback/feedback.js' type='text/javascript'></script>
+	<script type="text/javascript" charset="utf-8">
+	  var tab_options = {}
+	  tab_options.placement = "bottom";  // left, right, bottom, hidden
+	  tab_options.color = "#222"; // hex (#FF0000) or color (red)
+	  GSFN.feedback('http://getsatisfaction.com/luvsound/feedback/topics/new?display=overlay&style=idea', tab_options);
+	</script>
 </body>
 </html>
