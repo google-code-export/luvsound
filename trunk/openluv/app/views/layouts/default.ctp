@@ -24,7 +24,7 @@
 	<div class="main_wrapper">
 		<div class="content">
 			<div id="left_column">
-				<img src="/img/logo2.png" />
+				<img src="/img/luvlogo_color.png" />
 				<?php echo $this->element('navigation'); ?>
 				<?php echo $this->element('user_menu'); ?>
 				<?php $session->flash(); ?>
