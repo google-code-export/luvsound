@@ -1,5 +1,5 @@
 /**
- * IPRO Framework Global CSS
+ * Luvsound Framework Global CSS
  * 2009 Erik Schoster, IPRO
  */
   
@@ -142,6 +142,10 @@ p {
 	color: #444;
 	font-size: 14px;
 	font-weight: bold;
+}
+
+a {
+	color: #8D44CB;
 }
 
 /* Elements
@@ -358,6 +362,42 @@ div.featured_single p {
 }
 
 div.featured_single p strong {
+	color: #8D44CB;
+}
+
+div.featured_video {
+	padding: 0px;
+}
+
+div.featured_video h2 {
+	display: block;
+	background-image: url('/img/claris04.gif');
+	background-color: #E8D3F9;
+	background-repeat: repeat;
+	padding: 10px;
+	color: #8D44C9;
+}
+
+div.featured_video h2 a {
+	background-image: url('/img/claris03.gif');
+	background-color: #7BC2EB;
+	background-repeat: repeat;
+	color: #0F5C89;
+}
+
+div.featured_video h2 a:hover {
+	color: #0F5C89;
+}
+
+div.featured_video p {
+	padding: 5px 20px 5px 20px;
+	line-height: 24px;
+	background-image: url('/img/claris17.gif');
+	background-color: #E8D3F9!important;
+	background-repeat: repeat;
+}
+
+div.featured_video p strong {
 	color: #8D44CB;
 }
 
