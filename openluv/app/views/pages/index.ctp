@@ -3,6 +3,20 @@
 		<p><strong><?php echo $single['Single']['luv_id']; ?></strong> The Single of the Week</p>
 		<?php echo $this->element('mp3player', array('url'=>$single['Single']['url'], 'description'=>$single['Single']['description'])); ?>
 	</div>
+	
+	<div class="item_wrapper featured_video">
+		<h2><a href=""><?php echo $video['Video']['title']; ?></a>
+		<br/>by <?php echo $video['Video']['author']; ?></h2>
+		<p>Featured Video</p>
+		<object width="420" height="320">
+			<param name="allowfullscreen" value="true" />
+			<param name="allowscriptaccess" value="always" />
+			<param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=<?php echo $video['Video']['vimeo_id']; ?>&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" />
+			<embed src="http://vimeo.com/moogaloop.swf?clip_id=<?php echo $video['Video']['vimeo_id']; ?>&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="420" height="320">
+			</embed>
+		</object>
+		<p><?php echo $video['Video']['description']; ?></p>
+	</div>
 </div>
 <div id="center_column">
 	<div class="item_wrapper featured_release">
