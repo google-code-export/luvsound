@@ -7,7 +7,7 @@
 	<div class="item_wrapper featured_video">
 		<h2><a href=""><?php echo $video['Video']['title']; ?></a>
 		<br/>by <?php echo $video['Video']['author']; ?></h2>
-		<p>Featured Video</p>
+		<p><strong><?php echo $video['Video']['luv_id']; ?></strong> Featured Video</p>
 		<object width="420" height="320">
 			<param name="allowfullscreen" value="true" />
 			<param name="allowscriptaccess" value="always" />
