@@ -1,5 +1,5 @@
 	<div class="item_wrapper featured_single">
-		<h2><a href="<?php echo $single['Single']['url']; ?>"><?php echo $single['Single']['name']; ?></a> by <a href="<?php echo $single['Artist']['url']; ?>" style="color:#8D44C9;background:none;"><?php echo $single['Artist']['name']; ?></a></h2>
+		<h2><a href="<?php echo $single['Single']['url']; ?>"><?php echo $single['Single']['name']; ?></a> by <a href="#artist<?php echo $single['Artist']['id']; ?>" style="color:#8D44C9;background:none;"><?php echo $single['Artist']['name']; ?></a></h2>
 		<p><strong><?php echo $single['Single']['luv_id']; ?></strong> The Single of the Week</p>
 		<?php echo $this->element('mp3player', array('url'=>$single['Single']['url'], 'description'=>$single['Single']['description'])); ?>
 	</div>
