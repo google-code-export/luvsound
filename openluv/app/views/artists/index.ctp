@@ -1,3 +1,7 @@
+<p>Artist Index</p>
+<?php foreach($artists as $artist) : ?>
+<p><a href="#artist<?php echo $artist['Artist']['id']; ?>"><?php echo $artist['Artist']['name']; ?></a></p>
+<?php endforeach; ?>
 </div>
 <div id="center_column">
 	<?php if($session->read('Auth.User.group_id')==1) : ?>
@@ -7,6 +11,7 @@
 	<?php endif; ?>
 
 	<?php foreach($artists as $artist) : ?>
+	<a name="artist<?php echo $artist['Artist']['id']; ?>"></a>
 	<div class="item_wrapper artist">
 		<h2><a href="<?php echo $artist['Artist']['url']; ?>"><?php echo $artist['Artist']['name']; ?></a></h2>
 		<h3>from <?php echo $artist['Artist']['location']; ?></h3>
