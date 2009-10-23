@@ -4,7 +4,7 @@
 		<?php echo $this->element('mp3player', array('url'=>$single['Single']['url'], 'description'=>$single['Single']['description'])); ?>
 	</div>
 	
-	<div class="item_wrapper featured_video">
+	<!-- <div class="item_wrapper featured_video">
 		<h2><a href=""><?php echo $video['Video']['title']; ?></a>
 		<br/>by <?php echo $video['Video']['author']; ?></h2>
 		<p><strong><?php echo $video['Video']['luv_id']; ?></strong> Featured Video</p>
@@ -16,7 +16,7 @@
 			</embed>
 		</object>
 		<p><?php echo $video['Video']['description']; ?></p>
-	</div>
+	</div> -->
 </div>
 <div id="center_column">
 	<div class="item_wrapper featured_release">
